@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Table
+@Table(name="tb_usuario")
 @Entity(name = "usuario")
 public class UsuarioModel {
 
